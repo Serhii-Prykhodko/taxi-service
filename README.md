@@ -9,7 +9,7 @@
 ➩  create / update / remove:
 * a car,
 * a driver,
-* a manufacturer ;
+* a manufacturer;
 
 ➩ add driver to car;
 
@@ -29,17 +29,15 @@
 |        ⇕         |
 |     **DAO**      |
 ## Technologies:
-* Java,
-* Maven,
-* JDBC,
-* MySQL,
-* Tomcat,
-* Servlet,
-* JSP,
-* JSTL,
-* HTML, CSS.
+* Java 11
+* Maven
+* JDBC
+* MySQL 8.0.31
+* Tomcat 9.0.50
+* Servlet
+* JSP, JSTL, HTML, CSS
 ## How to run the project:
 * clone [this](https://github.com/Serhii-Prykhodko/taxi-service) project,
-* install [MySQL](https://dev.mysql.com/downloads/installer/) and run the script from [src/main/resources/init_db.sql](https://github.com/Serhii-Prykhodko/taxi-service/blob/main/src/main/resources/init_db.sql), ,
-* configure [src/main/java/taxi/util/ConnectionUtil.java](https://github.com/Serhii-Prykhodko/taxi-service/blob/main/src/main/java/taxi/util/ConnectionUtil.java) with your URL, USERNAME, PASSWORD, JDBC_DRIVER,
+* install [MySQL](https://dev.mysql.com/downloads/installer/) and run the script from [src/main/resources/init_db.sql](https://github.com/Serhii-Prykhodko/taxi-service/blob/main/src/main/resources/init_db.sql),
+* configure [src/main/java/taxi/util/ConnectionUtil.java](https://github.com/Serhii-Prykhodko/taxi-service/blob/main/src/main/java/taxi/util/ConnectionUtil.java) with your URL, USERNAME and PASSWORD,
 * install [Tomcat 9.0.50](https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.50/bin/) configure and run.
