@@ -43,5 +43,3 @@
 * run the script from src/main/resources/init_db.sql into MySQL,
 * configure src/main/java/taxi/util/ConnectionUtil.java with your URL, USERNAME, PASSWORD, JDBC_DRIVER,
 * configure and run Tomcat.
-
-
