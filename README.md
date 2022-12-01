@@ -1,6 +1,6 @@
 # 🚖Taxi-Service🚖
 #### This is a web-application that supports authentication, registration and CRUD operations, based on SOLID principles.
-# Features:
+## Features:
 ➩ registration as a driver,
 
 ➩ login as a driver.
