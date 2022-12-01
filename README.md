@@ -39,7 +39,7 @@
 * JSTL,
 * HTML, CSS.
 ## How to run the project:
-* clone this project,
-* run the script from src/main/resources/init_db.sql into MySQL,
-* configure src/main/java/taxi/util/ConnectionUtil.java with your URL, USERNAME, PASSWORD, JDBC_DRIVER,
-* configure and run Tomcat.
+* clone [this](https://github.com/Serhii-Prykhodko/taxi-service) project,
+* install [MySQL](https://dev.mysql.com/downloads/installer/) and run the script from [src/main/resources/init_db.sql](https://github.com/Serhii-Prykhodko/taxi-service/blob/main/src/main/resources/init_db.sql), ,
+* configure [src/main/java/taxi/util/ConnectionUtil.java](https://github.com/Serhii-Prykhodko/taxi-service/blob/main/src/main/java/taxi/util/ConnectionUtil.java) with your URL, USERNAME, PASSWORD, JDBC_DRIVER,
+* install [Tomcat](https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.50/bin/) configure and run.
